@@ -14,3 +14,4 @@ struct MarvelCharactersResult: Codable {
     var etag: String
     var data: MarvelData
 }
+

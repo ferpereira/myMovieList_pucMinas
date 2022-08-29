@@ -18,9 +18,9 @@ struct MarvelCharacter: Codable {
     var events: Events!
     var urls: [MarvelUrl]! = []
     
-    func getLink(to type: MarvelUrlType) -> MarvelUrl?{
-        return urls.filter {
-            (url)-> Bool in return url.type == type
+    func getLink(to type: MarvelUrlType) -> MarvelUrl? {
+        return urls.filter { (url) -> Bool in
+            return url.type == type
         }.first ?? nil
     }
 }

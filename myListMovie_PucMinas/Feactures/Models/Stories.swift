@@ -7,7 +7,7 @@
 
 struct Stories: Codable {
     var available: Int
-    var colletionURI: String
-    var itens: [Resource]
+    var collectionURI: String
+    var items: [Resource]
     var returned: Int
 }
