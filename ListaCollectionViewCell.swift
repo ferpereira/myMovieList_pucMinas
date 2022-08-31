@@ -5,10 +5,9 @@
 //  Created by fernando pereira on 24/08/22.
 //
 
-import Foundation
 import UIKit
 
-class ListaCollectionViewCell: UICollectionViewCell{
+class ListaCollectionViewCell: UICollectionViewCell {
     
     @IBOutlet weak var imageViewCharacter: UIImageView!
     @IBOutlet weak var labelName: UILabel!
@@ -25,5 +24,5 @@ class ListaCollectionViewCell: UICollectionViewCell{
         
         self.imageViewCharacter.image = nil
     }
-    
 }
+

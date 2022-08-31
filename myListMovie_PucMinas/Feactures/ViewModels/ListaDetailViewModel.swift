@@ -12,12 +12,12 @@ class ListaDetailViewModel {
     
     private var service: MarvelService!
     private var character: MarvelCharacter!
-    
+
     var thumbnailURL: String {
         return self.character.thumbnail.urlPath(type: .portraitFantastic)
     }
     
-    func characterName() -> String{
+    func characterName() -> String {
         return self.character.name
     }
     

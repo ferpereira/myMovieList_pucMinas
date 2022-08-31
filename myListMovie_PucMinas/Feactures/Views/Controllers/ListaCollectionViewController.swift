@@ -9,11 +9,10 @@
 import UIKit
 
 class ListaCollectionViewController: UICollectionViewController {
-    
+
     @IBOutlet weak var stackViewNotFound: UIStackView!
     @IBOutlet weak var imageViewNotFound: UIImageView!
     @IBOutlet weak var labelNotFound: UILabel!
-
     
     private var viewModel: ListaViewModel!
     private let cellIdentifier = "ListaCell"

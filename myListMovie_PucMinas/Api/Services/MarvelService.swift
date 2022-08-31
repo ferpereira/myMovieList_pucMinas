@@ -10,7 +10,7 @@ import Alamofire
 
 class MarvelService {
     
-    var config: ApiConfiguration
+    var config: ApiConfiguration!
     
     init(config: ApiConfiguration) {
         self.config = config

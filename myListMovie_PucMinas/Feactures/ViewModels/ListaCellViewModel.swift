@@ -9,6 +9,7 @@ import Foundation
 import Alamofire
 
 class ListaCellViewModel {
+    
     var service: MarvelService!
     var character: MarvelCharacter!
     
