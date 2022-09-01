@@ -9,7 +9,7 @@ Requisitos mínimos trabalho final:
 1 Padrão de Arquitetura utilizada 
 1 requisição a alguma API
 
-### Meu App - MyListMovie - Dev - FERNANDO MANOEL PEREIRA
+### Meu App - MyListMovie - Dev - FERNANDO MANOEL PEREIRA Matrícula: 140088
   O projeto consiste em realizar o consumo do serviço da Marvel [API](https://developer.marvel.com/) gerando uma lista contendo Imagem e Nome dos super heróis e ao selecionar uma imagem irá abrir uma nova janela mostrando a imagem e o detalhes(este caso tenha no json).
 ###
 
